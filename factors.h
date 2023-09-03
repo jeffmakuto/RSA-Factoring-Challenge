@@ -14,5 +14,7 @@
 
 /* Prototype functions */
 void factorize(FILE *file);
+int is_prime(long long num);
+void prime_factors(long long num);
 
 #endif /* FACTORS_H */
