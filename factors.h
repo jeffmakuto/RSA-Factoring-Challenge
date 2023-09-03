@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FACTORS_H
+#define FACTORS_H
 
 /* Header files */
 
@@ -12,4 +12,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#endif /* MAIN_H */
+/* Prototype functions */
+void factorize(FILE *file);
+
+#endif /* FACTORS_H */
